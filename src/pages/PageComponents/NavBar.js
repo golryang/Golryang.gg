@@ -9,7 +9,6 @@ class NavBar extends Component {
                display: 'flex',
                alignItems: 'center',
                height: 48,
-               justifyContent: 'space-between',
             }}
          >
             <a
@@ -24,6 +23,16 @@ class NavBar extends Component {
             >
                GolryanGG
             </a>
+            <a href=""
+               style={{
+                  color: 'white',
+                  display: 'flex',
+                  padding: 16,
+                  fontWeight: 700,
+                  cursor: 'pointer',
+               }}>
+               Ranking
+            </a>
             <a
                href=""
                style={{
@@ -32,6 +41,7 @@ class NavBar extends Component {
                   padding: 16,
                   fontWeight: 700,
                   cursor: 'pointer',
+                  marginLeft: "auto",
                }}
             >
                로그인

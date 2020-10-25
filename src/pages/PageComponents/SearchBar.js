@@ -14,13 +14,37 @@ class SearchBar extends Component {
          );
       }
       return (
-         <form style={{display: "flex", width: 624, height: 50 }}>
-            <input type="text" style={{flex: 1}} onClick={SearchBarDropDown}/>
-            <button>
-               <span>KR</span>
-              {/*<AiOutlineCaretDown  />*/}
-            </button>
-            <button>.GG</button>
+         <form style={{display: "flex", flexDirection: "column", width: 624, height: 50,  }}>
+            <div style={{display: "flex"}}>
+               <input type="text" style={{flex: 1, fontSize: 20, fontWeight: 500, padding: 16, outline:"none"}} placeholder={"소환사명, 소환사명, ..."} onClick={SearchBarDropDown}/>
+               <button>
+                <span>KR</span>
+               {/*<AiOutlineCaretDown  />*/}
+                </button>
+               <button>.GG</button>
+            </div>
+            <div style={{display: "flex", flex: 1, background: "gray"}}>
+               <div style={{display: "flex", flex: 1, justifyContent: "center"}}>
+                  <div style={{display: "flex", flexDirection: "column"}}>
+                     최근검색
+                     <div style={{display: "none"}}>
+                        <div>For Example.</div>
+                        <div>For Example.</div>
+                        <div>For Example.</div>
+                     </div>
+                  </div>
+               </div>
+               <div style={{display: "flex", flex: 1, justifyContent: "center"}}>
+                  <div style={{display: "flex", flexDirection: "column"}}>
+                     최근검색
+                     <div style={{display: "none"}}>
+                        <div>For Example.</div>
+                        <div>For Example.</div>
+                        <div>For Example.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </form>
       );
    }

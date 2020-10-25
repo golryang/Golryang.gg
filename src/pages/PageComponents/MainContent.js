@@ -7,7 +7,7 @@ class MainContent extends Component {
             <div
                style={{ display: "flex", width: "100%", justifyContent: "center", alignItems: "center", height: '100%', border: '1px solid #38393E' }}
             >
-               <p style={{color: "white", fontSize: 48, fontWeight: 700}}>Lorem Ipsum.</p>
+               <p style={{color: "white", fontSize: 48, fontWeight: 700}}>Golryang.GG</p>
             </div>
          </div>
       );
